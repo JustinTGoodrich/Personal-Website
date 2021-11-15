@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const Message:React.FC =()=>{
     return(
         <MessageBox>
-            Welcome to my website, I hope to begin posting to the blog shortly and show off what I'm working on. Thanks for joining me :)
+            Welcome to my website, I hope to begin posting to the blog shortly and show off what Im working on. Thanks for joining me :)
         </MessageBox>
     )
 }
