@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import Button from './Buttons'
 import { Instagram } from '@styled-icons/boxicons-logos/Instagram'
 import { Github } from '@styled-icons/bootstrap/Github'
 import { Menu } from '@styled-icons/material/Menu'

@@ -4,8 +4,10 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import NavBar from '../components/NavBar'
 import Main from '../components/Main'
-import Message from '../components/Message'
-import Crypto from '../components/Crypto'
+import Message from '../components/home/Message'
+import DVD from '../components/home/DVD'
+import Footer from '../components/Footer'
+
 const Home: NextPage = () => {
   return (
     <div>
@@ -20,11 +22,9 @@ const Home: NextPage = () => {
       <Main>
         <NavBar/>
         <Message/>
-        <Crypto/>
+        <DVD/>
       </Main>
-        <footer>
-          
-        </footer>
+      <Footer/>
     </div>
   )
 }
