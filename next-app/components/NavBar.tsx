@@ -34,8 +34,12 @@ const NavBar:React.FC =()=>{
                 </Link>
             </MenuBar>
             <Icons>
-                <IG/>
-                <GH/>
+                <a href="https://www.instagram.com/justinngoodrich">
+                    <IG/>
+                </a>
+                <a href="https://github.com/JustinTGoodrich">
+                    <GH/>
+                </a>
             </Icons>
             <MenuButton>
                 <MenuIcon/>
@@ -132,24 +136,25 @@ const Icons = styled.div`
         justify-content:space-evenly;
     }
 
+    a {
+        text-decoration:none;
+        height:45%;
+        width:50;
+        @media(min-width:800px){
+            height:60%;
+        }
+    }
+
 `;
 
 const IG = styled(Instagram)`
     color: ${ props=>props.theme.black };
-    height:45%;
-
-    @media(min-width:800px){
-        height:60%;
-    }
+    height:100%;
 `;
 
 const GH = styled(Github)`
     color: ${ props=>props.theme.black };
-    height:45%;
-
-    @media(min-width:800px){
-        height:60%;
-    }
+    height:100%;
 `;
 
 const MenuIcon = styled(Menu)`

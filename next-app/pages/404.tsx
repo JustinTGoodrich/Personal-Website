@@ -9,9 +9,9 @@ const ErrorPage: NextPage =()=>{
     return (
         <div>
             <Head>
-                <title>Create Next App</title>
-                <meta name="description" content="page not found" />
-                <link rel="icon" href="/favicon.ico" />
+                <title>Justin Goodrich</title>
+                <meta name="description" content="Page not found" />
+                <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
                 <link rel="preconnect" href="https://fonts.googleapis.com"/>
                 <link rel="preconnect" href="https://fonts.gstatic.com"/>
                 <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet"></link>
